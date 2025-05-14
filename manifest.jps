@@ -17,6 +17,9 @@ categories:
 globals:
   DB_PASS: "${fn.password(10)}"
 
+ssl: true
+skipNodeEmails: true
+
 engine: openjdk17
 nodes:
 - cloudlets: 24
